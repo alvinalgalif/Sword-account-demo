@@ -1,0 +1,121 @@
+ *{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+/* headder */
+ .nav_logo{
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.nav_logo:hover{
+    color: black;
+}
+li,a,button{
+   font-weight: 500;
+   font-size: 14px;
+   color: white;
+   text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: #096ef1;
+}
+.logo{
+    cursor: pointer;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;  
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: black;
+}
+button{
+    padding: 9px 25px;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: orange;
+} 
+
+/* support bar */
+.support_bar{
+    background-color:#e0e6ee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition:  all 0.3s ease 0s;
+}
+.menubar{
+    display: flex;
+    color: black;
+    padding: 10px 5%;
+    cursor: pointer;
+}
+.menubar:hover{
+    color: #096ef1;
+}
+.nav_support{
+    list-style: none;
+
+}
+.nav_support li{
+    display: inline-block;
+    padding: 0px 20px;  
+}
+.nav_supports li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_supports li a:hover{
+    color: black;
+}
+button{
+    padding: 9px 25px;
+    background-color:transparent;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.search{
+    height: 30px;
+    color: black;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color:white;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 15px 25px rgba(0,0,0,0) ;
+}
+.search:hover input{
+    width: 200px;
+}
+.search input{
+    width: 0;
+    color: black;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
